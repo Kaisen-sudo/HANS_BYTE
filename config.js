@@ -19,13 +19,13 @@ if (dotenvPath) {
 // Application Configuration Object
 module.exports = {
   // Session and Owner Information
-  SESSION_ID: process.env.SESSION_ID || "HANS-BYTE~8mlGjQ6b#idZ0maJjhXkYqbpZxZPSVS0fQSMXvT97pOmlGixhMko", // Add your session ID here
-  SUDO: process.env.SUDO || "237696900612", // Add your admin/sudo number here
-  OWNER_NUM: process.env.OWNER_NUM || "237696900612", // Add the owner's number here
+  SESSION_ID: process.env.SESSION_ID || "HANS-BYTE~dukSVDzC#DArvkGHZwSq6TJ4LsNzHXPYxhwtjgxTAQcGdfO79G58", // Add your session ID here
+  SUDO: process.env.SUDO || "50941091397", // Add your admin/sudo number here
+  OWNER_NUM: process.env.OWNER_NUM || "50941091397", // Add the owner's number here
   OWNER_NAME: process.env.OWNER_NAME || "HANS TECH", // Add the owner's name here
-  OWNER_EMAIL: process.env.OWNER_EMAIL || "your@email.com", // Add your email address here
-  OWNER_LOCATION: process.env.OWNER_LOCATION || "Africa/Douala", // Add your location here
-  OWNER_GITHUB: process.env.OWNER_GITHUB || "https://github.com/HansTech1", // Add your GitHub profile URL here
+  OWNER_EMAIL: process.env.OWNER_EMAIL || "laurentzo314@gmail.com", // Add your email address here
+  OWNER_LOCATION: process.env.OWNER_LOCATION || "Haiti/Port-au-Prince", // Add your location here
+  OWNER_GITHUB: process.env.OWNER_GITHUB || "https://github.com/kaisen-sudo", // Add your GitHub profile URL here
 
   // API Keys for third-party services
   OMDB_API_KEY: process.env.OMDB_API_KEY || "5e339fb7", // Add your OMDB API key here
@@ -57,7 +57,7 @@ module.exports = {
   AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
   READ_MESSAGE: process.env.READ_MESSAGE || "true",
   ANTI_BAD: process.env.ANTI_BAD || "true",
-  AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+  AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
   WELCOME: process.env.WELCOME || "true",
 
   // Alive Message & Image
@@ -66,13 +66,13 @@ module.exports = {
 
   // Sticker Settings
   STICKER_PACKNAME: process.env.STICKER_PACKNAME || "HANS BYTE MD", // Set your sticker pack name here
-  STICKER_AUTHOR: process.env.STICKER_AUTHOR || "HANS TECH", // Set your sticker author name here
+  STICKER_AUTHOR: process.env.STICKER_AUTHOR || "KAISEN TECH", // Set your sticker author name here
 
   // Image Sizes
   GROUP_PP_SIZE: process.env.GROUP_PP_SIZE || 512, // Set the group profile picture size here
   USER_PP_SIZE: process.env.USER_PP_SIZE || 640, // Set the user profile picture size here
 
   // Miscellaneous
-  GITHUB: process.env.GITHUB || "HaroldMth", // Add your GitHub username here
+  GITHUB: process.env.GITHUB || "Kaisen", // Add your GitHub username here
   TIMEZONE: process.env.TIMEZONE || "𝙒𝘼𝙏+1" // Set your timezone here (e.g., "WAT+1")
 };
